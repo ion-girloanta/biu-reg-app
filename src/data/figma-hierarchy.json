@@ -1,0 +1,722 @@
+{
+  "5584:552731": {
+    "targetNodeId": "5584:552731",
+    "targetNodeName": "2.0 Subject to learn-he",
+    "targetNodeType": "FRAME",
+    "hierarchy": {
+      "name": "2.0 Subject to learn-he",
+      "type": "FRAME",
+      "id": "5584:552731",
+      "position": {"x": 27750, "y": -7523}, "size": {"width": 1920, "height": 1075.9429931640625},
+      "children": [
+        {
+          "name": "header/Logo only",
+          "type": "INSTANCE",
+          "id": "5584:552732",
+          "position": {"x": 27750, "y": -7523}, "size": {"width": 1920, "height": 90.94300079345703},
+          "children": [
+            {
+              "name": "Frame 1261159237",
+              "type": "FRAME",
+              "id": "I5584:552732;3267:776527",
+              "position": {"x": 27750, "y": -7499}, "size": {"width": 1896, "height": 66.94300079345703},
+              "children": [
+                {
+                  "name": "Logo",
+                  "type": "INSTANCE",
+                  "id": "I5584:552732;3267:776524",
+                  "position": {"x": 29466, "y": -7499}, "size": {"width": 180, "height": 66.94300079345703},
+                  "children": [
+                    {
+                      "name": "main logo",
+                      "type": "RECTANGLE",
+                      "id": "I5584:552732;3267:776524;2034:2731",
+                      "position": {"x": 29466, "y": -7499}, "size": {"width": 180, "height": 66.94300079345703}
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Main",
+          "type": "FRAME",
+          "id": "5584:552733",
+          "position": {"x": 27750, "y": -7432.05712890625}, "size": {"width": 1920, "height": 985},
+          "children": [
+            {
+              "name": "ActionsMenu",
+              "type": "INSTANCE",
+              "id": "5584:552734",
+              "position": {"x": 27750, "y": -7432.05712890625}, "size": {"width": 1920, "height": 80},
+              "children": [
+                {
+                  "name": "Frame 1261158791",
+                  "type": "FRAME",
+                  "id": "I5584:552734;2784:88348",
+                  "position": {"x": 27838, "y": -7404.05712890625}, "size": {"width": 511, "height": 24},
+                  "children": [
+                    {
+                      "name": "Buttons/CTA/Link",
+                      "type": "INSTANCE",
+                      "id": "I5584:552734;2784:88344",
+                      "position": {"x": 27838, "y": -7404.05712890625}, "size": {"width": 83, "height": 24},
+                      "children": [
+                        {
+                          "name": "השוואה בין תחומים",
+                          "type": "TEXT",
+                          "id": "I5584:552734;2784:88344;2655:319293",
+                          "position": {"x": 27838, "y": -7404.05712890625}, "size": {"width": 49, "height": 24}
+                        },
+                        {
+                          "name": "Icons",
+                          "type": "INSTANCE",
+                          "id": "I5584:552734;2784:88344;2655:319294",
+                          "position": {"x": 27897, "y": -7404.05712890625}, "size": {"width": 24, "height": 24},
+                          "children": [
+                            {
+                              "name": "Vector",
+                              "type": "VECTOR",
+                              "id": "I5584:552734;2784:88344;2655:319294;2784:88250",
+                              "position": {"x": 27913, "y": -7397.05712890625}, "size": {"width": 5, "height": 10}
+                            },
+                            {
+                              "name": "Vector",
+                              "type": "VECTOR",
+                              "id": "I5584:552734;2784:88344;2655:319294;2784:88251",
+                              "position": {"x": 27906, "y": -7392.05712890625}, "size": {"width": 12, "height": 0}
+                            },
+                            {
+                              "name": "Vector",
+                              "type": "VECTOR",
+                              "id": "I5584:552734;2784:88344;2655:319294;2784:88252",
+                              "position": {"x": 27900, "y": -7401.05712890625}, "size": {"width": 6, "height": 18}
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Buttons/CTA/Link",
+                      "type": "INSTANCE",
+                      "id": "I5584:552734;2784:88340",
+                      "position": {"x": 27953, "y": -7404.05712890625}, "size": {"width": 153, "height": 24},
+                      "children": [
+                        {
+                          "name": "השוואה בין תחומים",
+                          "type": "TEXT",
+                          "id": "I5584:552734;2784:88340;2655:319293",
+                          "position": {"x": 27953, "y": -7404.05712890625}, "size": {"width": 119, "height": 24}
+                        },
+                        {
+                          "name": "Icons",
+                          "type": "INSTANCE",
+                          "id": "I5584:552734;2784:88340;2655:319294",
+                          "position": {"x": 28082, "y": -7404.05712890625}, "size": {"width": 24, "height": 24},
+                          "children": [
+                            {
+                              "name": "Vector",
+                              "type": "VECTOR",
+                              "id": "I5584:552734;2784:88340;2655:319294;2784:87797",
+                              "position": {"x": 28085, "y": -7403.05712890625}, "size": {"width": 18, "height": 22}
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Buttons/CTA/Link",
+                      "type": "INSTANCE",
+                      "id": "I5584:552734;2784:88333",
+                      "position": {"x": 28138, "y": -7404.05712890625}, "size": {"width": 154, "height": 24},
+                      "children": [
+                        {
+                          "name": "השוואה בין תחומים",
+                          "type": "TEXT",
+                          "id": "I5584:552734;2784:88333;2655:319293",
+                          "position": {"x": 28138, "y": -7404.05712890625}, "size": {"width": 120, "height": 24}
+                        },
+                        {
+                          "name": "Icons",
+                          "type": "INSTANCE",
+                          "id": "I5584:552734;2784:88333;2655:319294",
+                          "position": {"x": 28268, "y": -7404.05712890625}, "size": {"width": 24, "height": 24},
+                          "children": [
+                            {
+                              "name": "Vector",
+                              "type": "VECTOR",
+                              "id": "I5584:552734;2784:88333;2655:319294;2784:87809",
+                              "position": {"x": 28271, "y": -7401.05712890625}, "size": {"width": 18, "height": 18}
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Buttons/CTA/Link",
+                      "type": "INSTANCE",
+                      "id": "I5584:552734;3275:641751",
+                      "position": {"x": 28324, "y": -7404.05712890625}, "size": {"width": 25, "height": 24},
+                      "children": [
+                        {
+                          "name": "השוואה בין תחומים",
+                          "type": "TEXT",
+                          "id": "I5584:552734;3275:641751;2655:319293",
+                          "position": {"x": 28324, "y": -7404.05712890625}, "size": {"width": 25, "height": 24}
+                        },
+                        {
+                          "name": "Icons",
+                          "type": "INSTANCE",
+                          "id": "I5584:552734;3275:641751;2655:319294",
+                          "position": {"x": 28499, "y": -7404.05712890625}, "size": {"width": 24, "height": 24},
+                          "children": [
+                            {
+                              "name": "Vector",
+                              "type": "VECTOR",
+                              "id": "I5584:552734;3275:641751;2655:319294;2784:87809",
+                              "position": {"x": 28502, "y": -7401.05712890625}, "size": {"width": 18, "height": 18}
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "arrow-right",
+                  "type": "INSTANCE",
+                  "id": "I5584:552734;2784:88380",
+                  "position": {"x": 29550, "y": -7408.05712890625}, "size": {"width": 32, "height": 32},
+                  "children": [
+                    {
+                      "name": "Icon",
+                      "type": "VECTOR",
+                      "id": "I5584:552734;2784:88380;120:3908",
+                      "position": {"x": 29555.333984375, "y": -7402.7236328125}, "size": {"width": 21.333332061767578, "height": 21.333332061767578}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ProgressSteps",
+              "type": "FRAME",
+              "id": "5584:552735",
+              "position": {"x": 27750, "y": -7352.05712890625}, "size": {"width": 1920, "height": 84},
+              "children": [
+                {
+                  "name": "Steps",
+                  "type": "INSTANCE",
+                  "id": "5584:552736",
+                  "position": {"x": 28284, "y": -7328.05712890625}, "size": {"width": 1386, "height": 36},
+                  "children": [
+                    {
+                      "name": "Progress-EN",
+                      "type": "INSTANCE",
+                      "id": "I5584:552736;3022:735518",
+                      "position": {"x": 28284, "y": -7328.05712890625}, "size": {"width": 259.6000061035156, "height": 36},
+                      "children": [
+                        {
+                          "name": "בחירת לימודים",
+                          "type": "TEXT",
+                          "id": "I5584:552736;3022:735518;3022:761763",
+                          "position": {"x": 28284, "y": -7328.05712890625}, "size": {"width": 259.6000061035156, "height": 24}
+                        },
+                        {
+                          "name": "Rectangle 16916",
+                          "type": "RECTANGLE",
+                          "id": "I5584:552736;3022:735518;3022:761764",
+                          "position": {"x": 28284, "y": -7296.05712890625}, "size": {"width": 259.6000061035156, "height": 4}
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Progress-EN",
+                      "type": "INSTANCE",
+                      "id": "I5584:552736;3022:752752",
+                      "position": {"x": 28543.599609375, "y": -7328.05712890625}, "size": {"width": 259.6000061035156, "height": 36},
+                      "children": [
+                        {
+                          "name": "בחירת לימודים",
+                          "type": "TEXT",
+                          "id": "I5584:552736;3022:752752;3022:761763",
+                          "position": {"x": 28543.599609375, "y": -7328.05712890625}, "size": {"width": 259.6000061035156, "height": 24}
+                        },
+                        {
+                          "name": "Rectangle 16916",
+                          "type": "RECTANGLE",
+                          "id": "I5584:552736;3022:752752;3022:761764",
+                          "position": {"x": 28543.599609375, "y": -7296.05712890625}, "size": {"width": 259.6000061035156, "height": 4}
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Progress-EN",
+                      "type": "INSTANCE",
+                      "id": "I5584:552736;3022:748531",
+                      "position": {"x": 28803.19921875, "y": -7328.05712890625}, "size": {"width": 259.6000061035156, "height": 36},
+                      "children": [
+                        {
+                          "name": "בחירת לימודים",
+                          "type": "TEXT",
+                          "id": "I5584:552736;3022:748531;3022:761763",
+                          "position": {"x": 28803.19921875, "y": -7328.05712890625}, "size": {"width": 259.6000061035156, "height": 24}
+                        },
+                        {
+                          "name": "Rectangle 16916",
+                          "type": "RECTANGLE",
+                          "id": "I5584:552736;3022:748531;3022:761764",
+                          "position": {"x": 28803.19921875, "y": -7296.05712890625}, "size": {"width": 259.6000061035156, "height": 4}
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Progress-EN",
+                      "type": "INSTANCE",
+                      "id": "I5584:552736;3022:739916",
+                      "position": {"x": 29062.80078125, "y": -7328.05712890625}, "size": {"width": 259.6000061035156, "height": 36},
+                      "children": [
+                        {
+                          "name": "בחירת לימודים",
+                          "type": "TEXT",
+                          "id": "I5584:552736;3022:739916;3022:761763",
+                          "position": {"x": 29062.80078125, "y": -7328.05712890625}, "size": {"width": 259.6000061035156, "height": 24}
+                        },
+                        {
+                          "name": "Rectangle 16916",
+                          "type": "RECTANGLE",
+                          "id": "I5584:552736;3022:739916;3022:761764",
+                          "position": {"x": 29062.80078125, "y": -7296.05712890625}, "size": {"width": 259.6000061035156, "height": 4}
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Progress-EN",
+                      "type": "INSTANCE",
+                      "id": "I5584:552736;3022:760458",
+                      "position": {"x": 29322.400390625, "y": -7328.05712890625}, "size": {"width": 259.6000061035156, "height": 36},
+                      "children": [
+                        {
+                          "name": "בחירת לימודים",
+                          "type": "TEXT",
+                          "id": "I5584:552736;3022:760458;3022:761822",
+                          "position": {"x": 29322.400390625, "y": -7328.05712890625}, "size": {"width": 259.6000061035156, "height": 24}
+                        },
+                        {
+                          "name": "Rectangle 16916",
+                          "type": "RECTANGLE",
+                          "id": "I5584:552736;3022:760458;3022:761823",
+                          "position": {"x": 29322.400390625, "y": -7296.05712890625}, "size": {"width": 259.6000061035156, "height": 4}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ContentContainer",
+              "type": "FRAME",
+              "id": "5584:552737",
+              "position": {"x": 27750, "y": -7268.05712890625}, "size": {"width": 1920, "height": 821},
+              "children": [
+                {
+                  "name": "Content",
+                  "type": "FRAME",
+                  "id": "5584:552738",
+                  "position": {"x": 28434, "y": -7268.05712890625}, "size": {"width": 1148, "height": 652},
+                  "children": [
+                    {
+                      "name": "ContentTitle",
+                      "type": "FRAME",
+                      "id": "5584:552739",
+                      "position": {"x": 28434, "y": -7180.05712890625}, "size": {"width": 1148, "height": 80},
+                      "children": [
+                        {
+                          "name": "title",
+                          "type": "TEXT",
+                          "id": "5584:552740",
+                          "position": {"x": 28434, "y": -7180.05712890625}, "size": {"width": 1148, "height": 80}
+                        },
+                        {
+                          "name": "sub",
+                          "type": "FRAME",
+                          "id": "5584:552741",
+                          "position": {"x": 28434, "y": -7090.05712890625}, "size": {"width": 1148, "height": 36},
+                          "children": [
+                            {
+                              "name": "ניתן להירשם לעד 3 תחומים",
+                              "type": "TEXT",
+                              "id": "5584:552742",
+                              "position": {"x": 28458.5, "y": -7090.05712890625}, "size": {"width": 1099, "height": 36}
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ContentBody",
+                      "type": "FRAME",
+                      "id": "5584:552743",
+                      "position": {"x": 28434, "y": -7020.05712890625}, "size": {"width": 1148, "height": 404},
+                      "children": [
+                        {
+                          "name": "Learning Type",
+                          "type": "INSTANCE",
+                          "id": "5584:552744",
+                          "position": {"x": 28434, "y": -7020.05712890625}, "size": {"width": 1148, "height": 272},
+                          "children": [
+                            {
+                              "name": "selection",
+                              "type": "INSTANCE",
+                              "id": "I5584:552744;3043:1227063",
+                              "position": {"x": 28618, "y": -7020.05712890625}, "size": {"width": 300, "height": 120},
+                              "children": [
+                                {
+                                  "name": "selection/btn",
+                                  "type": "INSTANCE",
+                                  "id": "I5584:552744;3043:1227063;2094:14493",
+                                  "position": {"x": 28618, "y": -7020.05712890625}, "size": {"width": 300, "height": 120},
+                                  "children": [
+                                    {
+                                      "name": "Text",
+                                      "type": "TEXT",
+                                      "id": "I5584:552744;3043:1227063;2094:14493;2063:20",
+                                      "position": {"x": 28650, "y": -6972.05712890625}, "size": {"width": 124, "height": 24}
+                                    },
+                                    {
+                                      "name": "Icon",
+                                      "type": "INSTANCE",
+                                      "id": "I5584:552744;3043:1227063;2094:14493;2063:80",
+                                      "position": {"x": 28798, "y": -7004.05712890625}, "size": {"width": 88, "height": 88},
+                                      "children": [
+                                        {
+                                          "name": "Clip path group",
+                                          "type": "GROUP",
+                                          "id": "I5584:552744;3043:1227063;2094:14493;2063:80;3131:458367",
+                                          "position": {"x": 28798, "y": -7004.014122009277}, "size": {"width": 88, "height": 88.12056732177734},
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Group",
+                                          "type": "GROUP",
+                                          "id": "I5584:552744;3043:1227063;2094:14493;2063:80;3131:460006",
+                                          "position": {"x": 28814.5, "y": -6987.55712890625}, "size": {"width": 55.94956588745117, "height": 55.94956970214844},
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Master's degree",
+                                          "type": "FRAME",
+                                          "id": "I5584:552744;3043:1227063;2094:14493;2063:80;3131:460080",
+                                          "position": {"x": 28827, "y": -6975.05712890625}, "size": {"width": 32, "height": 29.11233139038086},
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "selection",
+                              "type": "INSTANCE",
+                              "id": "I5584:552744;3081:1143318",
+                              "position": {"x": 28950, "y": -7020.05712890625}, "size": {"width": 300, "height": 120},
+                              "children": [
+                                {
+                                  "name": "selection/btn",
+                                  "type": "INSTANCE",
+                                  "id": "I5584:552744;3081:1143318;2094:14493",
+                                  "position": {"x": 28950, "y": -7020.05712890625}, "size": {"width": 300, "height": 120},
+                                  "children": [
+                                    {
+                                      "name": "Text",
+                                      "type": "TEXT",
+                                      "id": "I5584:552744;3081:1143318;2094:14493;2063:20",
+                                      "position": {"x": 28982, "y": -6972.05712890625}, "size": {"width": 124, "height": 24}
+                                    },
+                                    {
+                                      "name": "Icon",
+                                      "type": "INSTANCE",
+                                      "id": "I5584:552744;3081:1143318;2094:14493;2063:80",
+                                      "position": {"x": 29130, "y": -7004.05712890625}, "size": {"width": 88, "height": 88},
+                                      "children": [
+                                        {
+                                          "name": "Clip path group",
+                                          "type": "GROUP",
+                                          "id": "I5584:552744;3081:1143318;2094:14493;2063:80;3131:455041",
+                                          "position": {"x": 29130, "y": -7004.014122009277}, "size": {"width": 88, "height": 88.12056732177734},
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Group",
+                                          "type": "GROUP",
+                                          "id": "I5584:552744;3081:1143318;2094:14493;2063:80;3131:456680",
+                                          "position": {"x": 29146.5, "y": -6987.55712890625}, "size": {"width": 55.94956588745117, "height": 55.94956970214844},
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "selection",
+                              "type": "INSTANCE",
+                              "id": "I5584:552744;3141:402741",
+                              "position": {"x": 29282, "y": -7020.05712890625}, "size": {"width": 300, "height": 120},
+                              "children": [
+                                {
+                                  "name": "selection/btn",
+                                  "type": "INSTANCE",
+                                  "id": "I5584:552744;3141:402741;3238:614787",
+                                  "position": {"x": 29282, "y": -7020.05712890625}, "size": {"width": 300, "height": 120},
+                                  "children": [
+                                    {
+                                      "name": "Text",
+                                      "type": "TEXT",
+                                      "id": "I5584:552744;3141:402741;3238:614787;2063:20",
+                                      "position": {"x": 29314, "y": -6972.05712890625}, "size": {"width": 124, "height": 24}
+                                    },
+                                    {
+                                      "name": "icon",
+                                      "type": "INSTANCE",
+                                      "id": "I5584:552744;3141:402741;3238:614787;2063:80",
+                                      "position": {"x": 29462, "y": -7004.05712890625}, "size": {"width": 88, "height": 88},
+                                      "children": [
+                                        {
+                                          "name": "Clip path group",
+                                          "type": "GROUP",
+                                          "id": "I5584:552744;3141:402741;3238:614787;2063:80;3147:554041",
+                                          "position": {"x": 29462, "y": -7004.05712890625}, "size": {"width": 88, "height": 88},
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "graduation cap",
+                                          "type": "FRAME",
+                                          "id": "I5584:552744;3141:402741;3238:614787;2063:80;3147:555696",
+                                          "position": {"x": 29485.375, "y": -6971.10205078125}, "size": {"width": 42.625, "height": 27.535839080810547},
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "selection",
+                              "type": "INSTANCE",
+                              "id": "I5584:552744;2535:12087",
+                              "position": {"x": 28618, "y": -6868.05712890625}, "size": {"width": 300, "height": 120},
+                              "children": [
+                                {
+                                  "name": "selection/btn",
+                                  "type": "INSTANCE",
+                                  "id": "I5584:552744;2535:12087;2094:14493",
+                                  "position": {"x": 28618, "y": -6868.05712890625}, "size": {"width": 300, "height": 120},
+                                  "children": [
+                                    {
+                                      "name": "Text",
+                                      "type": "TEXT",
+                                      "id": "I5584:552744;2535:12087;2094:14493;2063:20",
+                                      "position": {"x": 28650, "y": -6820.05712890625}, "size": {"width": 124, "height": 24}
+                                    },
+                                    {
+                                      "name": "Icon",
+                                      "type": "INSTANCE",
+                                      "id": "I5584:552744;2535:12087;2094:14493;2063:80",
+                                      "position": {"x": 28798, "y": -6852.05712890625}, "size": {"width": 88, "height": 88},
+                                      "children": [
+                                        {
+                                          "name": "Clip path group",
+                                          "type": "GROUP",
+                                          "id": "I5584:552744;2535:12087;2094:14493;2063:80;3141:379068",
+                                          "position": {"x": 28798, "y": -6852.05712890625}, "size": {"width": 88, "height": 88},
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "selection",
+                              "type": "INSTANCE",
+                              "id": "I5584:552744;2275:8095",
+                              "position": {"x": 28950, "y": -6868.05712890625}, "size": {"width": 300, "height": 120},
+                              "children": [
+                                {
+                                  "name": "selection/btn",
+                                  "type": "INSTANCE",
+                                  "id": "I5584:552744;2275:8095;2094:14493",
+                                  "position": {"x": 28950, "y": -6868.05712890625}, "size": {"width": 300, "height": 120},
+                                  "children": [
+                                    {
+                                      "name": "Text",
+                                      "type": "TEXT",
+                                      "id": "I5584:552744;2275:8095;2094:14493;2063:20",
+                                      "position": {"x": 28982, "y": -6820.05712890625}, "size": {"width": 124, "height": 24}
+                                    },
+                                    {
+                                      "name": "Icon",
+                                      "type": "INSTANCE",
+                                      "id": "I5584:552744;2275:8095;2094:14493;2063:80",
+                                      "position": {"x": 29130, "y": -6852.05712890625}, "size": {"width": 88, "height": 88},
+                                      "children": [
+                                        {
+                                          "name": "Clip path group",
+                                          "type": "GROUP",
+                                          "id": "I5584:552744;2275:8095;2094:14493;2063:80;3148:5004",
+                                          "position": {"x": 29130, "y": -6852.05712890625}, "size": {"width": 88, "height": 88},
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Frame 1261159232",
+                                          "type": "FRAME",
+                                          "id": "I5584:552744;2275:8095;2094:14493;2063:80;3148:6645",
+                                          "position": {"x": 29161.75, "y": -6827.30712890625}, "size": {"width": 26.42253875732422, "height": 39.63380432128906},
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "selection",
+                              "type": "INSTANCE",
+                              "id": "I5584:552744;3081:1373968",
+                              "position": {"x": 29282, "y": -6868.05712890625}, "size": {"width": 300, "height": 120},
+                              "children": [
+                                {
+                                  "name": "selection/btn",
+                                  "type": "INSTANCE",
+                                  "id": "I5584:552744;3081:1373968;2094:14493",
+                                  "position": {"x": 29282, "y": -6868.05712890625}, "size": {"width": 300, "height": 120},
+                                  "children": [
+                                    {
+                                      "name": "Text",
+                                      "type": "TEXT",
+                                      "id": "I5584:552744;3081:1373968;2094:14493;2063:20",
+                                      "position": {"x": 29314, "y": -6820.05712890625}, "size": {"width": 124, "height": 24}
+                                    },
+                                    {
+                                      "name": "Icon",
+                                      "type": "INSTANCE",
+                                      "id": "I5584:552744;3081:1373968;2094:14493;2063:80",
+                                      "position": {"x": 29462, "y": -6852.05712890625}, "size": {"width": 88, "height": 88},
+                                      "children": [
+                                        {
+                                          "name": "Clip path group",
+                                          "type": "GROUP",
+                                          "id": "I5584:552744;3081:1373968;2094:14493;2063:80;3141:377410",
+                                          "position": {"x": 29462, "y": -6852.014122009277}, "size": {"width": 88, "height": 88.12056732177734},
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Group",
+                                          "type": "GROUP",
+                                          "id": "I5584:552744;3081:1373968;2094:14493;2063:80;3141:379049",
+                                          "position": {"x": 29478.5, "y": -6835.55712890625}, "size": {"width": 55.94956588745117, "height": 55.94956970214844},
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Union",
+                                          "type": "BOOLEAN_OPERATION",
+                                          "id": "I5584:552744;3081:1373968;2094:14493;2063:80;3141:380709",
+                                          "position": {"x": 29510.005859375, "y": -6815.0478515625}, "size": {"width": 8.0224609375, "height": 4.5126953125},
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Vector",
+                                          "type": "VECTOR",
+                                          "id": "I5584:552744;3081:1373968;2094:14493;2063:80;3141:380711",
+                                          "position": {"x": 29508, "y": -6818.05712890625}, "size": {"width": 12.033966064453125, "height": 4.613107204437256}
+                                        },
+                                        {
+                                          "name": "Union",
+                                          "type": "BOOLEAN_OPERATION",
+                                          "id": "I5584:552744;3081:1373968;2094:14493;2063:80;3141:380712",
+                                          "position": {"x": 29518.53125, "y": -6815.5498046875}, "size": {"width": 1.4640347957611084, "height": 4.0107421875},
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Rectangle 16926",
+                                          "type": "RECTANGLE",
+                                          "id": "I5584:552744;3081:1373968;2094:14493;2063:80;3141:380715",
+                                          "position": {"x": 29498, "y": -6823.05712890625}, "size": {"width": 25, "height": 31}
+                                        },
+                                        {
+                                          "name": "Union",
+                                          "type": "BOOLEAN_OPERATION",
+                                          "id": "I5584:552744;3081:1373968;2094:14493;2063:80;3141:380716",
+                                          "position": {"x": 29506, "y": -6808.05712890625}, "size": {"width": 14, "height": 13.5},
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Rectangle 16927",
+                                          "type": "RECTANGLE",
+                                          "id": "I5584:552744;3081:1373968;2094:14493;2063:80;3141:380721",
+                                          "position": {"x": 29488, "y": -6815.057250102539}, "size": {"width": 18.999999151797965, "height": 26.161981103005928}
+                                        },
+                                        {
+                                          "name": "Frame 1261159232",
+                                          "type": "FRAME",
+                                          "id": "I5584:552744;3081:1373968;2094:14493;2063:80;3141:380722",
+                                          "position": {"x": 29494.095703125, "y": -6811.41552734375}, "size": {"width": 9.721686363220215, "height": 15.782544136047363},
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Buttons/CTA/Primary",
+                          "type": "INSTANCE",
+                          "id": "5584:552745",
+                          "position": {"x": 29462, "y": -6668.05712890625}, "size": {"width": 120, "height": 52},
+                          "children": [
+                            {
+                              "name": "אני רוצה להירשם!",
+                              "type": "TEXT",
+                              "id": "I5584:552745;2408:28957",
+                              "position": {"x": 29496.5, "y": -6652.05712890625}, "size": {"width": 51, "height": 20}
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "placeholder image",
+                  "type": "INSTANCE",
+                  "id": "5584:552746",
+                  "position": {"x": 27749, "y": -7267.75634765625}, "size": {"width": 641, "height": 871},
+                  "children": [
+                    {
+                      "name": "Rectangle 16918",
+                      "type": "RECTANGLE",
+                      "id": "I5584:552746;3051:1349525",
+                      "position": {"x": 27749, "y": -7267.75634765625}, "size": {"width": 641, "height": 871}
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "lastUpdated": "2025-08-30T19:08:43.296Z"
+  }
+}

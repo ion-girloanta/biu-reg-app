@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&family=Assistant:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    direction: rtl;
+  }
+  
+  body {
+    -webkit-font-smoothing: antialiased;
+    background-color: #f9fafb;
+    direction: rtl;
+    font-family: 'Heebo', 'Assistant', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  [dir="ltr"] {
+    direction: ltr;
+  }
+}
+
+@layer components {
+  .biu-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #005136;
+    color: white;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .biu-button:hover {
+    background-color: rgba(0, 81, 54, 0.9);
+  }
+  
+  .biu-button-secondary {
+    padding: 0.75rem 1.5rem;
+    background-color: white;
+    color: #005136;
+    border: 2px solid #005136;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .biu-button-secondary:hover {
+    background-color: #005136;
+    color: white;
+  }
+  
+  .biu-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    text-align: right;
+  }
+  
+  .biu-input:focus {
+    outline: none;
+    border-color: #005136;
+    box-shadow: 0 0 0 2px rgba(0, 81, 54, 0.2);
+  }
+  
+  .biu-card {
+    background-color: white;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    padding: 2rem;
+    border: 1px solid #f3f4f6;
+  }
+  
+  .biu-header {
+    background-color: #005136;
+    color: white;
+  }
+  
+  .biu-progress {
+    background-color: #005136;
+    border-radius: 9999px;
+    transition: all 0.5s;
+  }
+}
