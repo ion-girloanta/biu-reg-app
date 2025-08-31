@@ -137,7 +137,7 @@ const FigmaPageTemplate: React.FC = () => {
                 <div className="flex flex-col items-center gap-4">
                   <h3 className="text-[16px] text-black text-center font-hebrew w-[669px] leading-[19.2px]">באיזו שפה נוח לך?</h3>
 
-                  <div className="flex flex-row gap-8 justify-center items-center w-[669px]">
+                  <div className="flex flex-row gap-[32px] justify-center items-center w-[669px]">
                     {/* English Option */}
                     <button
                       onClick={() => setSelectedLanguage('english')}
