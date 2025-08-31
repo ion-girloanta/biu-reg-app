@@ -5,6 +5,7 @@ import checkIcon from '../assets/iconamoon_check-bold.svg';
 import clockIcon from '../assets/mdi-light_clock.svg';
 
 const FigmaPageTemplate: React.FC = () => {
+  const navigate = useNavigate();
   const [selectedLanguage, setSelectedLanguage] = useState<'hebrew' | 'english'>('hebrew');
   const [scale, setScale] = useState(1);
 
