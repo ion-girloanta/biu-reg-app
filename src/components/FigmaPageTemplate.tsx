@@ -152,7 +152,7 @@ const FigmaPageTemplate: React.FC = () => {
               {/* Info Cards */}
               <div className="flex flex-row gap-[32px] w-full max-w-[955px]">
                 {/* Card 1 - Clock */}
-                <div className="w-[484px] h-[217px] bg-[#F5FAF0] border border-[#DFE3F3] rounded-[16px] p-8" style={{boxShadow: '0 8px 12px -2px rgba(0, 0, 0, 0.08), 0 2px 6px -2px rgba(0, 0, 0, 0.06)'}}>
+                <div className="w-[484px] h-[217px] bg-[#F5FAF0] border border-[#DFE3F3] rounded-[16px] p-10" style={{boxShadow: '0 8px 12px -2px rgba(0, 0, 0, 0.08), 0 2px 6px -2px rgba(0, 0, 0, 0.06)'}}>
                   <div className="flex items-start gap-[41px]">
                     <div className="flex-1">
                       <h3 className="text-[20px] font-bold text-black mb-6 leading-6 font-hebrew">כדאי להכין מראש</h3>
