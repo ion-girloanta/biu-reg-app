@@ -1,0 +1,307 @@
+{
+  "name": "Bar Ilan Registration App",
+  "type": "FRAME",
+  "id": "root-frame",
+  "absoluteBoundingBox": {
+    "x": 25717,
+    "y": -7523,
+    "width": 1440,
+    "height": 1024
+  },
+  "background": {
+    "type": "SOLID",
+    "color": {
+      "r": 0.95,
+      "g": 0.97,
+      "b": 1.0,
+      "a": 1
+    }
+  },
+  "children": [
+    {
+      "name": "header",
+      "type": "FRAME",
+      "id": "header-frame",
+      "absoluteBoundingBox": {
+        "x": 25717,
+        "y": -7523,
+        "width": 1440,
+        "height": 80
+      },
+      "background": {
+        "type": "SOLID",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      },
+      "children": [
+        {
+          "name": "logoContainer",
+          "type": "FRAME",
+          "id": "logo-container",
+          "absoluteBoundingBox": {
+            "x": 26077,
+            "y": -7503,
+            "width": 100,
+            "height": 40
+          },
+          "children": [
+            {
+              "name": "logo",
+              "type": "INSTANCE",
+              "id": "logo-instance",
+              "absoluteBoundingBox": {
+                "x": 26077,
+                "y": -7503,
+                "width": 100,
+                "height": 40
+              },
+              "background": {
+                "type": "SOLID",
+                "color": {
+                  "r": 0,
+                  "g": 0.32,
+                  "b": 0.22,
+                  "a": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "contentContainer",
+      "type": "FRAME",
+      "id": "content-container",
+      "absoluteBoundingBox": {
+        "x": 25717,
+        "y": -7443,
+        "width": 1440,
+        "height": 800
+      },
+      "children": [
+        {
+          "name": "contentBody",
+          "type": "FRAME",
+          "id": "content-body",
+          "absoluteBoundingBox": {
+            "x": 25837,
+            "y": -7323,
+            "width": 1200,
+            "height": 600
+          },
+          "children": [
+            {
+              "name": "titleText",
+              "type": "TEXT",
+              "id": "title-text",
+              "absoluteBoundingBox": {
+                "x": 26337,
+                "y": -7283,
+                "width": 400,
+                "height": 60
+              },
+              "characters": "הדרך שלך להצלחה מתחילה כאן",
+              "style": {
+                "fontFamily": "Heebo",
+                "fontWeight": 700,
+                "fontSize": 36,
+                "lineHeight": 48,
+                "textAlign": "center"
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0,
+                    "g": 0.24,
+                    "b": 0.51,
+                    "a": 1
+                  }
+                }
+              ]
+            },
+            {
+              "name": "subtitleText",
+              "type": "TEXT",
+              "id": "subtitle-text",
+              "absoluteBoundingBox": {
+                "x": 26337,
+                "y": -7203,
+                "width": 400,
+                "height": 30
+              },
+              "characters": "הרשמה לאוניברסיטת בר-אילן",
+              "style": {
+                "fontFamily": "Heebo",
+                "fontWeight": 400,
+                "fontSize": 18,
+                "lineHeight": 24,
+                "textAlign": "center"
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.4,
+                    "g": 0.4,
+                    "b": 0.4,
+                    "a": 1
+                  }
+                }
+              ]
+            },
+            {
+              "name": "cards",
+              "type": "FRAME",
+              "id": "cards-frame",
+              "absoluteBoundingBox": {
+                "x": 26037,
+                "y": -7123,
+                "width": 800,
+                "height": 200
+              },
+              "children": [
+                {
+                  "name": "card1",
+                  "type": "FRAME",
+                  "id": "card-1",
+                  "absoluteBoundingBox": {
+                    "x": 26037,
+                    "y": -7123,
+                    "width": 240,
+                    "height": 200
+                  },
+                  "background": {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1,
+                      "a": 1
+                    }
+                  },
+                  "effects": [
+                    {
+                      "type": "DROP_SHADOW",
+                      "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.1
+                      },
+                      "offset": {
+                        "x": 0,
+                        "y": 4
+                      },
+                      "radius": 8,
+                      "spread": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "card2",
+                  "type": "FRAME",
+                  "id": "card-2",
+                  "absoluteBoundingBox": {
+                    "x": 26317,
+                    "y": -7123,
+                    "width": 240,
+                    "height": 200
+                  },
+                  "background": {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1,
+                      "a": 1
+                    }
+                  },
+                  "effects": [
+                    {
+                      "type": "DROP_SHADOW",
+                      "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.1
+                      },
+                      "offset": {
+                        "x": 0,
+                        "y": 4
+                      },
+                      "radius": 8,
+                      "spread": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "card3",
+                  "type": "FRAME",
+                  "id": "card-3",
+                  "absoluteBoundingBox": {
+                    "x": 26597,
+                    "y": -7123,
+                    "width": 240,
+                    "height": 200
+                  },
+                  "background": {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1,
+                      "a": 1
+                    }
+                  },
+                  "effects": [
+                    {
+                      "type": "DROP_SHADOW",
+                      "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.1
+                      },
+                      "offset": {
+                        "x": 0,
+                        "y": 4
+                      },
+                      "radius": 8,
+                      "spread": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "CTA",
+              "type": "FRAME",
+              "id": "cta-button",
+              "absoluteBoundingBox": {
+                "x": 26437,
+                "y": -6883,
+                "width": 200,
+                "height": 50
+              },
+              "background": {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.006,
+                  "g": 0.41,
+                  "b": 0.106,
+                  "a": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

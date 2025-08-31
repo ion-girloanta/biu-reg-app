@@ -1,0 +1,19 @@
+{
+  "downloadedAt": "2024-01-15T12:00:00.000Z",
+  "figmaFileId": "placeholder-file-id",
+  "targetNodeId": "root-frame",
+  "targetNodeName": "Bar Ilan Registration App",
+  "method": "node-only",
+  "totalAssets": 1,
+  "assets": [
+    {
+      "name": "main logo",
+      "nodeId": "logo-instance",
+      "nodeType": "INSTANCE",
+      "path": "src/assets/main-logo-bea68e78.png",
+      "ref": "main-logo-ref",
+      "scaleMode": "FILL",
+      "filename": "main-logo-bea68e78.png"
+    }
+  ]
+}
