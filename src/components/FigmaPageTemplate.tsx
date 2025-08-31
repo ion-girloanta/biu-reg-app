@@ -152,7 +152,7 @@ const FigmaPageTemplate: React.FC = () => {
               {/* Info Cards */}
               <div className="flex flex-row gap-[32px] w-full max-w-[955px]">
                 {/* Card 1 - Clock */}
-                <div className="w-[484px] h-[217px] bg-[#F5FAF0] border border-[#DFE3F3] rounded-2xl p-8 shadow-lg">
+                <div className="w-[484px] h-[217px] bg-[#F5FAF0] border border-[#DFE3F3] rounded-2xl p-8" style={{boxShadow: '0 8px 12px -2px rgba(0, 0, 0, 0.08), 0 2px 6px -2px rgba(0, 0, 0, 0.06)'}}>
                   <div className="flex items-start gap-[41px]">
                     <div className="w-[68px] h-[68px] relative flex-shrink-0">
                       <div className="w-full h-full bg-white rounded-full shadow-md flex items-center justify-center">
@@ -169,7 +169,7 @@ const FigmaPageTemplate: React.FC = () => {
                 </div>
 
                 {/* Card 2 - Check */}
-                <div className="w-[484px] h-[217px] bg-[#F5FAF0] border border-[#DFE3F3] rounded-2xl p-8 shadow-lg">
+                <div className="w-[484px] h-[217px] bg-[#F5FAF0] border border-[#DFE3F3] rounded-2xl p-8" style={{boxShadow: '0 8px 12px -2px rgba(0, 0, 0, 0.08), 0 2px 6px -2px rgba(0, 0, 0, 0.06)'}}>
                   <div className="flex items-start gap-[41px]">
                     <div className="w-[68px] h-[68px] relative flex-shrink-0">
                       <div className="w-full h-full bg-white rounded-full shadow-md flex items-center justify-center">
