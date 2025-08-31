@@ -16,6 +16,12 @@ export default {
       fontFamily: {
         'hebrew': ['Fedra Sans Bar-ilan', 'Heebo', 'Assistant', 'Arial', 'sans-serif'],
       },
+      spacing: {
+        '17': '4.25rem',
+        '22': '5.5rem',
+        '45': '11.25rem',
+        '75': '18.75rem',
+      },
     },
   },
   plugins: [
