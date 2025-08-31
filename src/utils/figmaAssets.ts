@@ -1,5 +1,6 @@
 import figmaAssetManifest from '../assets/figma-assets.json';
-import mainLogo from '../assets/main-logo-bea68e78.png';
+// import mainLogo from '../assets/main-logo-bea68e78.png';
+const mainLogo = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSIjMDA1MTM2Ii8+Cjx0ZXh0IHg9IjUwIiB5PSI1NSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE2IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+Qkl1PC90ZXh0Pgo8L3N2Zz4K';
 
 // Asset mapping based on the manifest
 const assetMap: Record<string, string> = {
