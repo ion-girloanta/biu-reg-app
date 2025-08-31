@@ -125,7 +125,7 @@ const FigmaPageTemplate: React.FC = () => {
         <div className="w-[1131px] flex flex-col justify-center items-center px-8 py-24">
           <div className="w-full max-w-[955px]">
             {/* Content Container */}
-            <div className="flex flex-col items-center gap-[48px] pt-[88px] h-[897px]">
+            <div className="flex flex-col items-center gap-[48px] pt-[88px] min-h-[938px]">
               {/* Title Section */}
               <div className="flex flex-col justify-center items-center gap-[10px] text-center">
                 <h1 className="text-[64px] font-bold text-black leading-normal font-hebrew">
