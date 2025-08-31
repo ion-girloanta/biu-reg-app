@@ -94,7 +94,7 @@ const FigmaPageTemplate: React.FC = () => {
               </div>
 
               {/* Info Cards */}
-              <div className="flex flex-row gap-8 w-full max-w-[955px]">
+              <div className="flex flex-row gap-[32px] w-full max-w-[955px]">
                 {/* Card 1 - Clock */}
                 <div className="w-[484px] h-[217px] bg-[#F5FAF0] border border-[#DFE3F3] rounded-2xl p-8 shadow-lg">
                   <div className="flex items-start gap-[41px]">
