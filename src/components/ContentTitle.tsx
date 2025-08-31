@@ -11,7 +11,7 @@ const ContentTitle: React.FC<ContentTitleProps> = ({ title, subtitle }) => {
       <h1 className="text-4xl lg:text-6xl font-bold text-black mb-4 leading-tight">
         {title}
       </h1>
-      <p className="text-xl lg:text-3xl text-biu-dark-green font-light max-w-4xl mx-auto leading-relaxed">
+      <p className="text-xl lg:text-3xl text-biu-dark-green font-light max-w-4xl mx-auto leading-relaxed whitespace-pre-line">
         {subtitle}
       </p>
     </div>

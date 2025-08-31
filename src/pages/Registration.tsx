@@ -15,9 +15,9 @@ const Registration: React.FC = () => {
 
       {/* Main Content */}
       <div className="flex flex-col lg:flex-row">
-        <Main 
+        <Main
           title="הדרך שלך לאוניברסיטה מתחילה כאן"
-          subtitle="ברוכים הבאים להרשמה!&#10;לפני שמתחילים, הנה כמה דברים שרצינו לספר לך"
+          subtitle="ברוכים הבאים להרשמה!\nלפני שמתחילים, הנה כמה דברים שרצינו לספר לך"
         />
         <PlaceholderImage />
       </div>
