@@ -24,7 +24,7 @@ const FigmaPageTemplate: React.FC = () => {
           <div className="flex justify-between items-center px-[88px] py-6 max-w-[1920px] mx-auto">
             <div className="flex items-center gap-[32px]">
               {/* Menu Items */}
-              <button className="flex items-center gap-2.5 text-biu-green hover:text-biu-green/80 transition-colors">
+              <button className="flex items-center gap-[10px] text-biu-green hover:text-biu-green/80 transition-colors">
                 <span className="text-xl font-medium">יציאה</span>
                 <svg width="24" height="24" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M16 17.9429L21 12.9429M16 7.94287L18 9.94287" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -33,21 +33,21 @@ const FigmaPageTemplate: React.FC = () => {
                 </svg>
               </button>
 
-              <button className="flex items-center gap-2.5 text-biu-green hover:text-biu-green/80 transition-colors">
+              <button className="flex items-center gap-[10px] text-biu-green hover:text-biu-green/80 transition-colors">
                 <span className="text-xl font-medium">התחלה מחדש</span>
                 <svg width="24" height="24" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 23.9429L6 22.9429M7 15.9429L3 19.9429H17C18.0609 19.9429 19.0783 19.5214 19.8284 18.7713C20.5786 18.0212 21 17.0037 21 15.9429V13.9429M17 1.94287L21 5.94287H7C5.93913 5.94287 4.92172 6.3643 4.17157 7.11444C3.42143 7.86459 3 8.88201 3 9.94287V11.9429M17 9.94287L18 8.94287" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </button>
 
-              <button className="flex items-center gap-2.5 text-biu-green hover:text-biu-green/80 transition-colors">
+              <button className="flex items-center gap-[10px] text-biu-green hover:text-biu-green/80 transition-colors">
                 <span className="text-xl font-medium">שמור לאחר כך</span>
                 <svg width="24" height="24" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M3.58579 4.52866C3.21071 4.90373 3 5.41244 3 5.94287V19.9429C3 20.4733 3.21071 20.982 3.58579 21.3571C3.96086 21.7322 4.46957 21.9429 5 21.9429H17V13.9429H7V18.9429M20.4142 21.3571C20.7893 20.982 21 20.4733 21 19.9429V8.94287L16 3.94287H7V8.94287H15" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </button>
 
-              <button className="flex items-center gap-2.5 text-biu-green hover:text-biu-green/80 transition-colors">
+              <button className="flex items-center gap-[10px] text-biu-green hover:text-biu-green/80 transition-colors">
                 <span className="text-xl font-medium">En</span>
               </button>
             </div>
