@@ -5,15 +5,15 @@ const FigmaPageTemplate: React.FC = () => {
   const [selectedLanguage, setSelectedLanguage] = useState<'hebrew' | 'english'>('hebrew');
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white" dir="rtl">
       {/* Header */}
       <header className="w-full">
         {/* Logo Section */}
-        <div className="flex justify-end items-center p-6">
+        <div className="flex justify-start items-center p-6 max-w-[1920px] mx-auto">
           <div className="w-[180px] h-[67px]">
-            <img 
-              src={figmaAssets.ASSETS.MAIN_LOGO} 
-              alt="Bar Ilan University Logo" 
+            <img
+              src={figmaAssets.ASSETS.MAIN_LOGO}
+              alt="Bar Ilan University Logo"
               className="w-full h-full object-contain"
             />
           </div>
@@ -21,7 +21,7 @@ const FigmaPageTemplate: React.FC = () => {
 
         {/* Actions Menu */}
         <div className="bg-white shadow-md border-b border-gray-100">
-          <div className="flex justify-between items-center px-4 lg:px-22 py-6">
+          <div className="flex justify-between items-center px-[88px] py-6 max-w-[1920px] mx-auto">
             <div className="flex items-center gap-8">
               {/* Menu Items */}
               <button className="flex items-center gap-2.5 text-biu-green hover:text-biu-green/80 transition-colors">
