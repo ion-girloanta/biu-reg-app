@@ -22,7 +22,7 @@ const FigmaPageTemplate: React.FC = () => {
         {/* Actions Menu */}
         <div className="bg-white shadow-md border-b border-gray-100">
           <div className="flex justify-between items-center px-[88px] py-6 max-w-[1920px] mx-auto">
-            <div className="flex items-center gap-8">
+            <div className="flex items-center gap-[32px]">
               {/* Menu Items */}
               <button className="flex items-center gap-2.5 text-biu-green hover:text-biu-green/80 transition-colors">
                 <span className="text-xl font-medium">יציאה</span>
