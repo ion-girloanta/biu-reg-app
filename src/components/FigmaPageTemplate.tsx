@@ -160,7 +160,7 @@ const FigmaPageTemplate: React.FC = () => {
                       <h3 className="text-[20px] font-bold text-black mb-4 leading-6 font-hebrew">כדאי לדעת</h3>
                       <p className="text-[20px] text-black leading-6 font-hebrew">במקרה של ביטול רישום – ניתן לקבל החזר מלא של דמי הרישום, אם הביטול נעשה תוך 24 שעות.</p>
                     </div>
-                    <div className="w-[68px] h-[68px] relative flex-shrink-0 -mt-2">
+                    <div className="w-[68px] h-[68px] relative flex-shrink-0 -mt-4">
                       <div className="w-full h-full bg-white rounded-full flex items-center justify-center" style={{filter: 'drop-shadow(0 1px 3px rgba(0, 0, 0, 0.08)) drop-shadow(0 1px 2px rgba(0, 0, 0, 0.04))'}}>
                         <div className="w-[42px] h-[42px] rounded-full border-2 border-biu-green flex items-center justify-center">
                           <img src={checkIcon} alt="Check" className="w-[22px] h-[22px]" />
@@ -177,7 +177,7 @@ const FigmaPageTemplate: React.FC = () => {
                       <h3 className="text-[20px] font-bold text-black mb-4 leading-6 font-hebrew">כדאי להכין מראש</h3>
                       <p className="text-[20px] text-black leading-6 font-hebrew">צילום של תעודת הזהות.</p>
                     </div>
-                    <div className="w-[68px] h-[68px] relative flex-shrink-0 -mt-2">
+                    <div className="w-[68px] h-[68px] relative flex-shrink-0 -mt-4">
                       <div className="w-full h-full bg-white rounded-full flex items-center justify-center" style={{filter: 'drop-shadow(0 1px 3px rgba(0, 0, 0, 0.08)) drop-shadow(0 1px 2px rgba(0, 0, 0, 0.04))'}}>
                         <img src={clockIcon} alt="Clock" className="w-[53px] h-[53px]" />
                       </div>
