@@ -64,19 +64,10 @@ const FigmaPageTemplate: React.FC = () => {
       </header>
 
       {/* Main Content */}
-      <main className="flex flex-col lg:flex-row">
-        {/* Left Side - Illustration */}
-        <div className="lg:w-[703px] lg:h-[1034px] flex-shrink-0 order-2 lg:order-1">
-          <img 
-            src="https://api.builder.io/api/v1/image/assets/TEMP/e6016cbf2a1db8a8e50cfa8c6dc4586b9829632e?width=1406" 
-            alt="Registration illustration" 
-            className="w-full h-full object-cover"
-          />
-        </div>
-
-        {/* Right Side - Content */}
-        <div className="flex-1 flex flex-col justify-center items-center px-4 lg:px-8 py-12 lg:py-24 order-1 lg:order-2">
-          <div className="max-w-[1131px] w-full">
+      <main className="flex flex-row max-w-[1920px] mx-auto min-h-[1080px]">
+        {/* Right Side - Content (RTL first) */}
+        <div className="w-[1131px] flex flex-col justify-center items-center px-8 py-24">
+          <div className="w-full max-w-[955px]">
             {/* Content Container */}
             <div className="flex flex-col items-center gap-12 lg:gap-16">
               {/* Title Section */}
