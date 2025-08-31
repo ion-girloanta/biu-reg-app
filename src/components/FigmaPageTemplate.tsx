@@ -154,9 +154,9 @@ const FigmaPageTemplate: React.FC = () => {
                 {/* Card 1 - Check */}
                 <div className="w-[484px] h-[217px] bg-[#F5FAF0] border border-[#DFE3F3] rounded-[16px] p-10" style={{boxShadow: '0 8px 12px -2px rgba(0, 0, 0, 0.08), 0 2px 6px -2px rgba(0, 0, 0, 0.06)'}}>
                   <div className="flex items-start gap-[41px]">
-                    <div className="flex-1 pr-4">
-                      <h3 className="text-[20px] font-bold text-black mb-4 leading-6 font-hebrew">כדאי לדעת</h3>
-                      <p className="text-[20px] text-black leading-6 font-hebrew">במקרה של ביטול רישום – ניתן לקבל החזר מלא של דמי הרישום, אם הביטול נעשה תוך 24 שעות.</p>
+                    <div className="flex-1">
+                      <h3 className="text-[20px] font-bold text-black mb-4 leading-6 font-hebrew pr-5">כדאי לדעת</h3>
+                      <p className="text-[20px] text-black leading-6 font-hebrew pr-5">במקרה של ביטול רישום – ניתן לקבל החזר מלא של דמי הרישום, אם הביטול נעשה תוך 24 שעות.</p>
                     </div>
                     <div className="w-[68px] h-[68px] relative flex-shrink-0 pl-4">
                       <div className="w-full h-full bg-white rounded-full flex items-center justify-center" style={{filter: 'drop-shadow(0 1px 3px rgba(0, 0, 0, 0.08)) drop-shadow(0 1px 2px rgba(0, 0, 0, 0.04))'}}>
