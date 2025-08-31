@@ -158,7 +158,7 @@ const FigmaPageTemplate: React.FC = () => {
                   <div className="flex items-start gap-[41px]">
                     <div className="flex-1">
                       <h3 className="text-[20px] font-bold text-black mb-4 leading-6 font-hebrew">כדאי לדעת</h3>
-                      <p className="text-[20px] text-black leading-6 font-hebrew">במקרה של ביטול רישום – ניתן לקבל החזר מלא של דמי הרישום, ��ם הביטול נעשה תוך 24 שעות.</p>
+                      <p className="text-[20px] text-black leading-6 font-hebrew">במקרה של ביטול רישום – ניתן לקבל החזר מלא של דמי הרישום, אם הביטול נעשה תוך 24 שעות.</p>
                     </div>
                     <div className="w-[68px] h-[68px] relative flex-shrink-0">
                       <div className="w-full h-full bg-white rounded-full flex items-center justify-center" style={{filter: 'drop-shadow(0 1px 3px rgba(0, 0, 0, 0.08)) drop-shadow(0 1px 2px rgba(0, 0, 0, 0.04))'}}>
