@@ -9,22 +9,48 @@ const FigmaPageTemplate: React.FC = () => {
     const calculateScale = () => {
       const designWidth = 1920;
       const designHeight = 1080;
+
+      // Account for potential scrollbars and browser chrome
       const viewportWidth = window.innerWidth;
       const viewportHeight = window.innerHeight;
 
-      // Calculate scale to fit both width and height
-      const scaleX = viewportWidth / designWidth;
-      const scaleY = viewportHeight / designHeight;
+      // Add some padding to prevent edge cutoff
+      const paddingX = 40;
+      const paddingY = 40;
 
-      // Use the smaller scale to ensure content fits completely
-      const newScale = Math.min(scaleX, scaleY, 1); // Cap at 1 to prevent upscaling
-      setScale(newScale);
+      const availableWidth = viewportWidth - paddingX;
+      const availableHeight = viewportHeight - paddingY;
+
+      // Calculate scale to fit both dimensions
+      const scaleX = availableWidth / designWidth;
+      const scaleY = availableHeight / designHeight;
+
+      // Use the smaller scale to ensure content fits completely, allow slight upscaling for small screens
+      const newScale = Math.min(scaleX, scaleY, 1.2);
+
+      // Ensure minimum readable scale
+      const finalScale = Math.max(newScale, 0.3);
+
+      console.log('Zoom calculation:', { viewportWidth, viewportHeight, scaleX, scaleY, finalScale });
+      setScale(finalScale);
     };
 
+    // Initial calculation
     calculateScale();
-    window.addEventListener('resize', calculateScale);
 
-    return () => window.removeEventListener('resize', calculateScale);
+    // Debounced resize handler
+    let resizeTimeout: number;
+    const handleResize = () => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = window.setTimeout(calculateScale, 100);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      clearTimeout(resizeTimeout);
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   return (
