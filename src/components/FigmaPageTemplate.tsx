@@ -56,7 +56,7 @@ const FigmaPageTemplate: React.FC = () => {
   return (
     <div className="w-screen h-screen bg-white overflow-hidden flex items-center justify-center" dir="rtl">
       <div
-        className="w-[1920px] h-[1080px] origin-center relative"
+        className="w-[1920px] h-[1418px] origin-center relative"
         style={{
           transform: `scale(${scale})`,
           transition: 'transform 0.2s ease-out'
