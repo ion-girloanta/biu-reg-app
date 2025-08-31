@@ -8,8 +8,9 @@
 @layer base {
   html {
     direction: rtl;
+    overflow: hidden;
   }
-  
+
   body {
     -webkit-font-smoothing: antialiased;
     background-color: #f9fafb;
@@ -17,6 +18,9 @@
     font-family: 'Heebo', 'Assistant', Arial, sans-serif;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
   }
   
   [dir="ltr"] {
