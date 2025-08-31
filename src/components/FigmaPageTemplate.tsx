@@ -154,6 +154,10 @@ const FigmaPageTemplate: React.FC = () => {
                 {/* Card 1 - Clock */}
                 <div className="w-[484px] h-[217px] bg-[#F5FAF0] border border-[#DFE3F3] rounded-[16px] p-8" style={{boxShadow: '0 8px 12px -2px rgba(0, 0, 0, 0.08), 0 2px 6px -2px rgba(0, 0, 0, 0.06)'}}>
                   <div className="flex items-start gap-[41px]">
+                    <div className="flex-1">
+                      <h3 className="text-[20px] font-bold text-black mb-6 leading-6 font-hebrew">כדאי להכין מראש</h3>
+                      <p className="text-[20px] text-black leading-6 font-hebrew">צילום של תעודת הזהות.</p>
+                    </div>
                     <div className="w-[68px] h-[68px] relative flex-shrink-0">
                       <div className="w-full h-full bg-white rounded-full flex items-center justify-center" style={{filter: 'drop-shadow(0 1px 3px rgba(0, 0, 0, 0.08)) drop-shadow(0 1px 2px rgba(0, 0, 0, 0.04))'}}>
                         <svg width="53" height="53" viewBox="0 0 53 54" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -161,16 +165,16 @@ const FigmaPageTemplate: React.FC = () => {
                         </svg>
                       </div>
                     </div>
-                    <div className="flex-1">
-                      <h3 className="text-[20px] font-bold text-black mb-6 leading-6 font-hebrew">כדאי להכין מראש</h3>
-                      <p className="text-[20px] text-black leading-6 font-hebrew">צילום של תעודת הזהות.</p>
-                    </div>
                   </div>
                 </div>
 
                 {/* Card 2 - Check */}
                 <div className="w-[484px] h-[217px] bg-[#F5FAF0] border border-[#DFE3F3] rounded-[16px] p-8" style={{boxShadow: '0 8px 12px -2px rgba(0, 0, 0, 0.08), 0 2px 6px -2px rgba(0, 0, 0, 0.06)'}}>
                   <div className="flex items-start gap-[41px]">
+                    <div className="flex-1">
+                      <h3 className="text-[20px] font-bold text-black mb-6 leading-6 font-hebrew">כדאי לדעת</h3>
+                      <p className="text-[20px] text-black leading-6 font-hebrew">במקרה של ביטול רישום – ניתן לקבל החזר מלא של דמי הרישום, אם הביטול נעשה תוך 24 שעות.</p>
+                    </div>
                     <div className="w-[68px] h-[68px] relative flex-shrink-0">
                       <div className="w-full h-full bg-white rounded-full flex items-center justify-center" style={{filter: 'drop-shadow(0 1px 3px rgba(0, 0, 0, 0.08)) drop-shadow(0 1px 2px rgba(0, 0, 0, 0.04))'}}>
                         <div className="w-[42px] h-[42px] rounded-full border-2 border-biu-green flex items-center justify-center">
@@ -179,10 +183,6 @@ const FigmaPageTemplate: React.FC = () => {
                           </svg>
                         </div>
                       </div>
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="text-[20px] font-bold text-black mb-6 leading-6 font-hebrew">כדאי לדעת</h3>
-                      <p className="text-[20px] text-black leading-6 font-hebrew">במקרה של ביטול רישום – ניתן לקבל החזר מלא של דמי הרישום, אם הביטול נעשה תוך 24 שעות.</p>
                     </div>
                   </div>
                 </div>
