@@ -9,7 +9,7 @@ const FigmaPageTemplate: React.FC = () => {
       {/* Header */}
       <header className="w-full">
         {/* Logo Section */}
-        <div className="flex justify-start items-center p-6 max-w-[1920px] mx-auto">
+        <div className="flex justify-start items-center pt-6 pr-6 pb-0 pl-6 max-w-[1920px] mx-auto">
           <div className="w-[180px] h-[67px]">
             <img
               src={figmaAssets.ASSETS.MAIN_LOGO}
