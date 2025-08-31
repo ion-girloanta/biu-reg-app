@@ -53,9 +53,9 @@ const LandingPage: React.FC = () => {
       </header>
 
       {/* Main Content */}
-      <div className="flex flex-col lg:flex-row min-h-screen">
+      <div className="flex flex-col lg:flex-row">
         {/* Content Section */}
-        <div className="flex-1 flex flex-col justify-center items-center px-6 lg:px-12 py-12 lg:py-0">
+        <div className="flex-1 flex flex-col justify-center items-center px-6 lg:px-12 py-8">
           <div className="max-w-4xl w-full">
             {/* Title Section */}
             <div className="text-center mb-12">
@@ -100,8 +100,8 @@ const LandingPage: React.FC = () => {
               {/* Card 2 - Check */}
               <div className="bg-green-50 border border-gray-200 rounded-2xl p-8 shadow-lg">
                 <div className="flex items-start gap-6 mb-6">
-                  <div className="relative">
-                    <div className="w-17 h-17 bg-white rounded-full shadow-md flex items-center justify-center">
+                  <div className="relative flex-shrink-0">
+                    <div className="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center">
                       <div className="w-10 h-10 border-2 border-biu-green rounded-full flex items-center justify-center">
                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M18 7.06787L9.25 15.8179L4.875 11.4429" stroke="#016937" strokeWidth="2.1875" strokeLinecap="round" strokeLinejoin="round"/>
@@ -123,23 +123,23 @@ const LandingPage: React.FC = () => {
                 <p className="text-base text-black mb-4">באיזו שפה נוח לך?</p>
                 
                 <div className="flex gap-8 justify-center">
-                  <button className="flex items-center gap-6 bg-white px-8 py-4 rounded-3xl shadow-lg hover:shadow-xl transition-shadow min-w-75">
+                  <button className="flex items-center gap-6 bg-white px-8 py-4 rounded-3xl shadow-lg hover:shadow-xl transition-shadow min-w-80">
                     <span className="text-xl text-biu-dark-green">EN</span>
-                    <div className="w-22 h-22 rounded-full overflow-hidden">
-                      <img 
-                        src="https://api.builder.io/api/v1/image/assets/TEMP/5d9808bbeac74bade0fa6fa27baf2a337a58c4e5?width=176" 
-                        alt="English flag" 
+                    <div className="w-20 h-20 rounded-full overflow-hidden">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/5d9808bbeac74bade0fa6fa27baf2a337a58c4e5?width=176"
+                        alt="English flag"
                         className="w-full h-full object-cover"
                       />
                     </div>
                   </button>
-                  
-                  <button className="flex items-center gap-6 bg-white px-8 py-4 rounded-3xl shadow-lg hover:shadow-xl transition-shadow min-w-75">
+
+                  <button className="flex items-center gap-6 bg-white px-8 py-4 rounded-3xl shadow-lg hover:shadow-xl transition-shadow min-w-80">
                     <span className="text-xl text-biu-dark-green">עברית</span>
-                    <div className="w-22 h-22 rounded-full overflow-hidden">
-                      <img 
-                        src="https://api.builder.io/api/v1/image/assets/TEMP/afaa3ed97ba8421c2fc3c71d8f3eafb4519463f9?width=176" 
-                        alt="Hebrew flag" 
+                    <div className="w-20 h-20 rounded-full overflow-hidden">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/afaa3ed97ba8421c2fc3c71d8f3eafb4519463f9?width=176"
+                        alt="Hebrew flag"
                         className="w-full h-full object-cover"
                       />
                     </div>
@@ -156,11 +156,11 @@ const LandingPage: React.FC = () => {
         </div>
 
         {/* Illustration Section */}
-        <div className="w-full lg:w-auto lg:flex-shrink-0 flex justify-center items-center">
-          <div className="w-full max-w-md lg:max-w-lg">
-            <img 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/e6016cbf2a1db8a8e50cfa8c6dc4586b9829632e?width=1406" 
-              alt="Registration illustration" 
+        <div className="lg:w-1/2 flex justify-center items-center p-6">
+          <div className="w-full max-w-lg">
+            <img
+              src="https://api.builder.io/api/v1/image/assets/TEMP/e6016cbf2a1db8a8e50cfa8c6dc4586b9829632e?width=1406"
+              alt="Registration illustration"
               className="w-full h-auto"
             />
           </div>
