@@ -8,15 +8,15 @@ const FigmaPageTemplate: React.FC = () => {
   useEffect(() => {
     const calculateScale = () => {
       const designWidth = 1920;
-      const designHeight = 1080;
+      const designHeight = 1418; // Increased from 1080 to account for full content height including CTA
 
       // Account for potential scrollbars and browser chrome
       const viewportWidth = window.innerWidth;
       const viewportHeight = window.innerHeight;
 
       // Add some padding to prevent edge cutoff
-      const paddingX = 40;
-      const paddingY = 40;
+      const paddingX = 20;
+      const paddingY = 20;
 
       const availableWidth = viewportWidth - paddingX;
       const availableHeight = viewportHeight - paddingY;
@@ -26,12 +26,12 @@ const FigmaPageTemplate: React.FC = () => {
       const scaleY = availableHeight / designHeight;
 
       // Use the smaller scale to ensure content fits completely, allow slight upscaling for small screens
-      const newScale = Math.min(scaleX, scaleY, 1.2);
+      const newScale = Math.min(scaleX, scaleY, 1.0);
 
-      // Ensure minimum readable scale
-      const finalScale = Math.max(newScale, 0.3);
+      // Ensure minimum readable scale but prioritize showing all content
+      const finalScale = Math.max(newScale, 0.25);
 
-      console.log('Zoom calculation:', { viewportWidth, viewportHeight, scaleX, scaleY, finalScale });
+      console.log('Zoom calculation:', { viewportWidth, viewportHeight, designHeight, scaleX, scaleY, finalScale });
       setScale(finalScale);
     };
 
