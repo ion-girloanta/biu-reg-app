@@ -28,7 +28,14 @@ const FigmaPageTemplate: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white" dir="rtl">
+    <div className="min-h-screen bg-white overflow-hidden flex items-center justify-center" dir="rtl">
+      <div
+        className="w-[1920px] h-[1080px] origin-center"
+        style={{
+          transform: `scale(${scale})`,
+          transition: 'transform 0.3s ease-in-out'
+        }}
+      >
       {/* Header */}
       <header className="w-full">
         {/* Logo Section */}
@@ -195,7 +202,7 @@ const FigmaPageTemplate: React.FC = () => {
 
                 {/* Primary CTA */}
                 <button className="w-[120px] px-6 py-4 bg-biu-green text-white text-[20px] font-medium font-hebrew hover:bg-biu-green/90 transition-colors">
-                  שנכיר
+                  שנכ��ר
                 </button>
               </div>
             </div>
@@ -211,6 +218,7 @@ const FigmaPageTemplate: React.FC = () => {
           />
         </div>
       </main>
+      </div>
     </div>
   );
 };
