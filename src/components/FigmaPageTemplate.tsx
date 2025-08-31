@@ -133,37 +133,37 @@ const FigmaPageTemplate: React.FC = () => {
               </div>
 
               {/* Language Selection */}
-              <div className="flex flex-col items-center gap-10">
+              <div className="flex flex-col items-center gap-[80px]">
                 <div className="flex flex-col items-center gap-4">
-                  <h3 className="text-base text-black text-center">באיזו שפה נוח לך?</h3>
-                  
-                  <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
+                  <h3 className="text-[16px] text-black text-center font-hebrew w-[669px] leading-[19.2px]">באיזו שפה נוח לך?</h3>
+
+                  <div className="flex flex-row gap-8 justify-center items-center w-[669px]">
                     {/* English Option */}
-                    <button 
+                    <button
                       onClick={() => setSelectedLanguage('english')}
                       className={`flex items-center gap-6 min-w-[300px] px-8 py-4 rounded-3xl bg-white shadow-lg transition-all ${
                         selectedLanguage === 'english' ? 'ring-2 ring-biu-green' : ''
                       }`}
                     >
-                      <span className="flex-1 text-xl text-[#00280F] text-center">EN</span>
-                      <img 
-                        src="https://api.builder.io/api/v1/image/assets/TEMP/5d9808bbeac74bade0fa6fa27baf2a337a58c4e5?width=176" 
-                        alt="English flag" 
+                      <span className="flex-1 text-[20px] text-[#00280F] text-center font-hebrew leading-6">EN</span>
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/5d9808bbeac74bade0fa6fa27baf2a337a58c4e5?width=176"
+                        alt="English flag"
                         className="w-[88px] h-[88px] rounded-full object-cover"
                       />
                     </button>
 
                     {/* Hebrew Option */}
-                    <button 
+                    <button
                       onClick={() => setSelectedLanguage('hebrew')}
                       className={`flex items-center gap-6 min-w-[300px] px-8 py-4 rounded-3xl bg-white shadow-lg transition-all ${
                         selectedLanguage === 'hebrew' ? 'ring-2 ring-biu-green' : ''
                       }`}
                     >
-                      <span className="flex-1 text-xl text-[#00280F] text-center">עברית</span>
-                      <img 
-                        src="https://api.builder.io/api/v1/image/assets/TEMP/afaa3ed97ba8421c2fc3c71d8f3eafb4519463f9?width=176" 
-                        alt="Hebrew flag" 
+                      <span className="flex-1 text-[20px] text-[#00280F] text-center font-hebrew leading-6">עברית</span>
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/afaa3ed97ba8421c2fc3c71d8f3eafb4519463f9?width=176"
+                        alt="Hebrew flag"
                         className="w-[88px] h-[88px] rounded-full object-cover"
                       />
                     </button>
@@ -171,7 +171,7 @@ const FigmaPageTemplate: React.FC = () => {
                 </div>
 
                 {/* Primary CTA */}
-                <button className="px-6 py-4 bg-biu-green text-white text-xl font-medium rounded hover:bg-biu-green/90 transition-colors">
+                <button className="w-[120px] px-6 py-4 bg-biu-green text-white text-[20px] font-medium font-hebrew hover:bg-biu-green/90 transition-colors">
                   שנכיר
                 </button>
               </div>
