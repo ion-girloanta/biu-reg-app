@@ -1,8 +1,10 @@
-import Registration from './pages/Registration';
+import LandingPage from './pages/LandingPage';
+// import Registration from './pages/Registration';
 
 function App() {
   return (
-    <Registration />
+    <LandingPage />
+    // <Registration />
   );
 }
 
