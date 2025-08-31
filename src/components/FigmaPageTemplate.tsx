@@ -178,6 +178,15 @@ const FigmaPageTemplate: React.FC = () => {
             </div>
           </div>
         </div>
+
+        {/* Left Side - Illustration */}
+        <div className="w-[703px] h-[1034px] flex-shrink-0 relative">
+          <img
+            src="https://api.builder.io/api/v1/image/assets/TEMP/e6016cbf2a1db8a8e50cfa8c6dc4586b9829632e?width=1406"
+            alt="Registration illustration"
+            className="w-full h-full object-cover absolute left-1 top-[174px]"
+          />
+        </div>
       </main>
     </div>
   );
