@@ -134,7 +134,7 @@ const FigmaPageTemplate: React.FC = () => {
                 <div className="max-w-[1099px]">
                   <p className="text-[36px] font-light text-[#00280F] leading-normal font-hebrew">
                     ברוכים הבאים להרשמה!<br />
-                    לפני שמתחילים, הנה כמה ��ברים שרצינו לספר לך
+                    לפני שמתחילים, הנה כמה דברים שרצינו לספר לך
                   </p>
                 </div>
               </div>
@@ -169,7 +169,7 @@ const FigmaPageTemplate: React.FC = () => {
                 </div>
 
                 {/* Card 2 - Check */}
-                <div className="w-[484px] h-[217px] bg-[#F5FAF0] border border-[#DFE3F3] rounded-2xl p-8" style={{boxShadow: '0 8px 12px -2px rgba(0, 0, 0, 0.08), 0 2px 6px -2px rgba(0, 0, 0, 0.06)'}}>
+                <div className="w-[484px] h-[217px] bg-[#F5FAF0] border border-[#DFE3F3] rounded-xl p-8" style={{boxShadow: '0 8px 12px -2px rgba(0, 0, 0, 0.08), 0 2px 6px -2px rgba(0, 0, 0, 0.06)'}}>
                   <div className="flex items-start gap-[41px]">
                     <div className="w-[68px] h-[68px] relative flex-shrink-0">
                       <div className="w-full h-full bg-white rounded-full flex items-center justify-center" style={{filter: 'drop-shadow(0 1px 3px rgba(0, 0, 0, 0.08)) drop-shadow(0 1px 2px rgba(0, 0, 0, 0.04))'}}>
