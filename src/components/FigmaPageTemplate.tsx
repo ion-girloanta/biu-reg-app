@@ -227,7 +227,10 @@ const FigmaPageTemplate: React.FC = () => {
                 </div>
 
                 {/* Primary CTA */}
-                <button className="w-[120px] px-6 py-4 bg-biu-green text-white text-[20px] font-medium font-hebrew hover:bg-biu-green/90 transition-colors">
+                <button
+                  onClick={() => navigate('/select-degree')}
+                  className="w-[120px] px-6 py-4 bg-biu-green text-white text-[20px] font-medium font-hebrew hover:bg-biu-green/90 transition-colors"
+                >
                   שנכיר
                 </button>
               </div>
