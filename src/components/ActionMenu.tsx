@@ -1,10 +1,24 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const ActionMenu: React.FC = () => {
+  const navigate = useNavigate();
+
+  const handleExit = () => {
+    navigate('/');
+  };
+
+  const handleRestart = () => {
+    navigate('/');
+  };
+
   return (
     <div className="flex justify-between items-center px-6 lg:px-22 py-6 bg-white shadow-md">
       <div className="flex items-center gap-8">
-        <button className="flex items-center gap-2 text-biu-green hover:opacity-80 transition-opacity">
+        <button
+          onClick={handleExit}
+          className="flex items-center gap-2 text-biu-green hover:opacity-80 transition-opacity"
+        >
           <span className="text-lg">יציאה</span>
           <svg width="24" height="24" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M16 17.9429L21 12.9429M16 7.94287L18 9.94287" stroke="#016937" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -13,7 +27,10 @@ const ActionMenu: React.FC = () => {
           </svg>
         </button>
         
-        <button className="flex items-center gap-2 text-biu-green hover:opacity-80 transition-opacity">
+        <button
+          onClick={handleRestart}
+          className="flex items-center gap-2 text-biu-green hover:opacity-80 transition-opacity"
+        >
           <span className="text-lg">התחלה מחדש</span>
           <svg width="24" height="24" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M7 23.9429L6 22.9429M7 15.9429L3 19.9429H17C18.0609 19.9429 19.0783 19.5214 19.8284 18.7713C20.5786 18.0212 21 17.0037 21 15.9429V13.9429M17 1.94287L21 5.94287H7C5.93913 5.94287 4.92172 6.3643 4.17157 7.11444C3.42143 7.86459 3 8.88201 3 9.94287V11.9429M17 9.94287L18 8.94287" stroke="#016937" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>

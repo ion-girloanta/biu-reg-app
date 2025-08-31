@@ -1,11 +1,21 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const ContentBody: React.FC = () => {
+  const navigate = useNavigate();
+
+  const handleAlreadyRegistered = () => {
+    navigate('/registration');
+  };
+
   return (
     <div className="mb-12">
       {/* Already Registered Link */}
       <div className="flex justify-center mb-12">
-        <button className="flex items-center gap-2 px-6 py-3 border border-biu-green rounded-lg bg-white hover:bg-gray-50 transition-colors">
+        <button
+          onClick={handleAlreadyRegistered}
+          className="flex items-center gap-2 px-6 py-3 border border-biu-green rounded-lg bg-white hover:bg-gray-50 transition-colors"
+        >
           <svg width="16" height="16" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M13.25 7.9428H4.35125L7.076 4.6728C7.3415 4.3548 7.298 3.88155 6.98 3.6168C6.66125 3.3513 6.18875 3.3948 5.924 3.7128L2.174 8.2128C2.14475 8.24805 2.12975 8.2893 2.108 8.3283C2.09 8.3598 2.06825 8.3868 2.05475 8.4213C2.021 8.50755 2.00075 8.5983 2.00075 8.6898C2.00075 8.69055 2 8.69205 2 8.6928C2 8.69355 2.00075 8.69505 2.00075 8.6958C2.00075 8.7873 2.021 8.87805 2.05475 8.9643C2.06825 8.9988 2.09 9.0258 2.108 9.0573C2.12975 9.0963 2.14475 9.13755 2.174 9.1728L5.924 13.6728C6.0725 13.8506 6.2855 13.9428 6.5 13.9428C6.6695 13.9428 6.83975 13.8858 6.98 13.7688C7.298 13.5041 7.3415 13.0308 7.076 12.7128L4.35125 9.4428H13.25C13.664 9.4428 14 9.1068 14 8.6928C14 8.2788 13.664 7.9428 13.25 7.9428Z" fill="#016937"/>
           </svg>
@@ -83,7 +93,10 @@ const ContentBody: React.FC = () => {
         </div>
 
         {/* CTA Button */}
-        <button className="bg-biu-green text-white px-6 py-4 text-xl hover:opacity-90 transition-opacity">
+        <button
+          onClick={() => navigate('/registration')}
+          className="bg-biu-green text-white px-6 py-4 text-xl hover:opacity-90 transition-opacity"
+        >
           שנכיר
         </button>
       </div>
