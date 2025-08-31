@@ -1,0 +1,19 @@
+{
+  "downloadedAt": "2024-01-01T00:00:00.000Z",
+  "figmaFileId": "placeholder",
+  "targetNodeId": "1:1", 
+  "targetNodeName": "Registration Page",
+  "method": "placeholder",
+  "totalAssets": 1,
+  "assets": [
+    {
+      "name": "main logo",
+      "nodeId": "1:2",
+      "nodeType": "RECTANGLE",
+      "path": "main-logo-bea68e78.png",
+      "ref": "main-logo-ref",
+      "scaleMode": "FILL",
+      "filename": "main-logo-bea68e78.png"
+    }
+  ]
+}

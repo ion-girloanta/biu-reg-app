@@ -1,0 +1,21 @@
+{
+  "name": "Registration Page",
+  "type": "FRAME",
+  "id": "1:1",
+  "absoluteBoundingBox": {
+    "x": 0,
+    "y": 0,
+    "width": 1200,
+    "height": 800
+  },
+  "background": {
+    "type": "SOLID",
+    "color": {
+      "r": 0.95,
+      "g": 0.95,
+      "b": 0.95,
+      "a": 1
+    }
+  },
+  "children": []
+}
