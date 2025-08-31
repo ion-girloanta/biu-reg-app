@@ -3,6 +3,29 @@ import figmaAssets from '../utils/figmaAssets';
 
 const FigmaPageTemplate: React.FC = () => {
   const [selectedLanguage, setSelectedLanguage] = useState<'hebrew' | 'english'>('hebrew');
+  const [scale, setScale] = useState(1);
+
+  useEffect(() => {
+    const calculateScale = () => {
+      const designWidth = 1920;
+      const designHeight = 1080;
+      const viewportWidth = window.innerWidth;
+      const viewportHeight = window.innerHeight;
+
+      // Calculate scale to fit both width and height
+      const scaleX = viewportWidth / designWidth;
+      const scaleY = viewportHeight / designHeight;
+
+      // Use the smaller scale to ensure content fits completely
+      const newScale = Math.min(scaleX, scaleY, 1); // Cap at 1 to prevent upscaling
+      setScale(newScale);
+    };
+
+    calculateScale();
+    window.addEventListener('resize', calculateScale);
+
+    return () => window.removeEventListener('resize', calculateScale);
+  }, []);
 
   return (
     <div className="min-h-screen bg-white" dir="rtl">
