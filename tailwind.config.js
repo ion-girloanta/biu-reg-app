@@ -11,7 +11,7 @@ export default {
         'biu-green': '#005136',
         'biu-gold': '#ffd700',
         'biu-light-blue': '#4a90e2',
-        'biu-dark-green': '#00513655',
+        'biu-dark-green': '#00280F',
       },
       fontFamily: {
         'hebrew': ['Fedra Sans Bar-ilan', 'Heebo', 'Assistant', 'Arial', 'sans-serif'],
