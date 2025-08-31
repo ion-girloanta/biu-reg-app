@@ -4,8 +4,7 @@ import LandingPage from './pages/LandingPage';
 function App() {
   return (
     <LandingPage />
-    // To use the modular Registration page instead, uncomment the line below and comment out LandingPage
-    // <Registration />
+    // To use the modular Registration page instead, swap the components above
   );
 }
 
