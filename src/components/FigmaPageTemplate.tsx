@@ -95,7 +95,24 @@ const FigmaPageTemplate: React.FC = () => {
 
               {/* Info Cards */}
               <div className="flex flex-row gap-8 w-full max-w-[955px]">
-                {/* Card 1 - Check */}
+                {/* Card 1 - Clock */}
+                <div className="w-[484px] h-[217px] bg-[#F5FAF0] border border-[#DFE3F3] rounded-2xl p-8 shadow-lg">
+                  <div className="flex items-start gap-[41px]">
+                    <div className="w-[68px] h-[68px] relative flex-shrink-0">
+                      <div className="w-full h-full bg-white rounded-full shadow-md flex items-center justify-center">
+                        <svg width="53" height="53" viewBox="0 0 53 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M26 5.44287C31.5695 5.44287 36.911 7.65536 40.8492 11.5936C44.7875 15.5319 47 20.8733 47 26.4429C47 32.0124 44.7875 37.3538 40.8492 41.2921C36.911 45.2304 31.5695 47.4429 26 47.4429C20.4305 47.4429 15.089 45.2304 11.1508 41.2921C7.21249 37.3538 5 32.0124 5 26.4429C5 20.8733 7.21249 15.5319 11.1508 11.5936C15.089 7.65536 20.4305 5.44287 26 5.44287ZM26 7.6534C21.0167 7.6534 16.2375 9.633 12.7138 13.1567C9.19013 16.6804 7.21053 21.4596 7.21053 26.4429C7.21053 31.4261 9.19013 36.2053 12.7138 39.729C16.2375 43.2527 21.0167 45.2323 26 45.2323C28.4675 45.2323 30.9108 44.7463 33.1904 43.8021C35.4701 42.8578 37.5414 41.4738 39.2862 39.729C41.0309 37.9843 42.4149 35.9129 43.3592 33.6333C44.3035 31.3536 44.7895 28.9103 44.7895 26.4429C44.7895 21.4596 42.8099 16.6804 39.2862 13.1567C35.7625 9.633 30.9833 7.6534 26 7.6534ZM24.8947 14.285H27.1053V26.266L37.4947 32.2566L36.3895 34.1797L24.8947 27.5481V14.285Z" fill="#016937"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-[20px] font-bold text-black mb-6 leading-6 font-hebrew">כדאי להכין מראש</h3>
+                      <p className="text-[20px] text-black leading-6 font-hebrew">צילום של תעודת הזהות.</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Card 2 - Check */}
                 <div className="w-[484px] h-[217px] bg-[#F5FAF0] border border-[#DFE3F3] rounded-2xl p-8 shadow-lg">
                   <div className="flex items-start gap-[41px]">
                     <div className="w-[68px] h-[68px] relative flex-shrink-0">
@@ -110,23 +127,6 @@ const FigmaPageTemplate: React.FC = () => {
                     <div className="flex-1">
                       <h3 className="text-[20px] font-bold text-black mb-6 leading-6 font-hebrew">כדאי לדעת</h3>
                       <p className="text-[20px] text-black leading-6 font-hebrew">במקרה של ביטול רישום – ניתן לקבל החזר מלא של דמי הרישום, אם הביטול נעשה תוך 24 שעות.</p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Card 2 - Clock */}
-                <div className="w-[484px] h-[217px] bg-[#F5FAF0] border border-[#DFE3F3] rounded-2xl p-8 shadow-lg">
-                  <div className="flex items-start gap-[41px]">
-                    <div className="w-[68px] h-[68px] relative flex-shrink-0">
-                      <div className="w-full h-full bg-white rounded-full shadow-md flex items-center justify-center">
-                        <svg width="53" height="53" viewBox="0 0 53 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M26 5.44287C31.5695 5.44287 36.911 7.65536 40.8492 11.5936C44.7875 15.5319 47 20.8733 47 26.4429C47 32.0124 44.7875 37.3538 40.8492 41.2921C36.911 45.2304 31.5695 47.4429 26 47.4429C20.4305 47.4429 15.089 45.2304 11.1508 41.2921C7.21249 37.3538 5 32.0124 5 26.4429C5 20.8733 7.21249 15.5319 11.1508 11.5936C15.089 7.65536 20.4305 5.44287 26 5.44287ZM26 7.6534C21.0167 7.6534 16.2375 9.633 12.7138 13.1567C9.19013 16.6804 7.21053 21.4596 7.21053 26.4429C7.21053 31.4261 9.19013 36.2053 12.7138 39.729C16.2375 43.2527 21.0167 45.2323 26 45.2323C28.4675 45.2323 30.9108 44.7463 33.1904 43.8021C35.4701 42.8578 37.5414 41.4738 39.2862 39.729C41.0309 37.9843 42.4149 35.9129 43.3592 33.6333C44.3035 31.3536 44.7895 28.9103 44.7895 26.4429C44.7895 21.4596 42.8099 16.6804 39.2862 13.1567C35.7625 9.633 30.9833 7.6534 26 7.6534ZM24.8947 14.285H27.1053V26.266L37.4947 32.2566L36.3895 34.1797L24.8947 27.5481V14.285Z" fill="#016937"/>
-                        </svg>
-                      </div>
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="text-[20px] font-bold text-black mb-6 leading-6 font-hebrew">כדאי להכין מראש</h3>
-                      <p className="text-[20px] text-black leading-6 font-hebrew">צילום של תעודת הזהות.</p>
                     </div>
                   </div>
                 </div>
