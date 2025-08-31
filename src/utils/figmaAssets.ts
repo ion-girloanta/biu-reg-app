@@ -1,5 +1,7 @@
 import figmaAssetManifest from '../assets/figma-assets.json';
-import mainLogo from '../assets/main-logo-bea68e78.png';
+
+// Placeholder logo SVG as data URL
+const mainLogo = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgMTAwIDQwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjQwIiByeD0iOCIgZmlsbD0iIzAwNTEzNiIvPgo8dGV4dCB4PSI1MCIgeT0iMjQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0iSGVlYm8sIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCI+QklVPC90ZXh0Pgo8L3N2Zz4K";
 
 // Asset mapping based on the manifest
 const assetMap: Record<string, string> = {
