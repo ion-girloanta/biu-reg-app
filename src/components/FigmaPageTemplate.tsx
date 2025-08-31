@@ -69,14 +69,14 @@ const FigmaPageTemplate: React.FC = () => {
         <div className="w-[1131px] flex flex-col justify-center items-center px-8 py-24">
           <div className="w-full max-w-[955px]">
             {/* Content Container */}
-            <div className="flex flex-col items-center gap-12 lg:gap-16">
+            <div className="flex flex-col items-center gap-12 pt-[88px] h-[897px]">
               {/* Title Section */}
-              <div className="flex flex-col justify-center items-center gap-4 text-center">
-                <h1 className="text-4xl lg:text-6xl font-bold text-black leading-tight">
+              <div className="flex flex-col justify-center items-center gap-[10px] text-center">
+                <h1 className="text-[64px] font-bold text-black leading-normal font-hebrew">
                   הדרך שלך לאוניברסיטה מתחילה כאן
                 </h1>
                 <div className="max-w-[1099px]">
-                  <p className="text-2xl lg:text-4xl font-light text-[#00280F] leading-normal">
+                  <p className="text-[36px] font-light text-[#00280F] leading-normal font-hebrew">
                     ברוכים הבאים להרשמה!<br />
                     לפני שמתחילים, הנה כמה דברים שרצינו לספר לך
                   </p>
